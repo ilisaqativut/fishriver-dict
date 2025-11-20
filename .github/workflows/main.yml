@@ -30,7 +30,11 @@ jobs:
         run: pip3 install -r requirements.txt
 
       - name: export
-        run: cd config && mtd export . js . && cp config-*.js ../config.js && cp dict_cached-*.js ../dict_cached.js
+        run: |
+          cd config
+          mtd export config.json js .
+          cp config-*.js ../config.js
+         cp dict_cached-*.js ../dict_cached.js
 
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@releases/v3
