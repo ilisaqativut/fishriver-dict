@@ -39,7 +39,7 @@ jobs:
           BRANCH: gh-pages
           FOLDER: .
 
-      - uses: actions/upload-artifact@v3
+      - uses: actions/upload-artifact@v3.2.4
         with:
           name: build
           path: config/*.js
