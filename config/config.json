@@ -1,4 +1,4 @@
-
+{
   "config": {
     "L1": "Iñupiaq",
     "L2": "English",
@@ -12,4 +12,5 @@
       "resource": "https://ilisaqativut.github.io/fishriver-dict/data/data.csv"
     }
   ]
+}
 
