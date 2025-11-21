@@ -4,8 +4,7 @@
     "display": "word",
     "compare": "compare_form",
     "sorting": "sort_form",
-    "transducers": [
-        {
+    "transducers": [{
             "source": "word",
             "target": "norm_form",
             "functions": [
@@ -16,7 +15,7 @@
             "source": "norm_form",
             "target": "compare_form",
             "functions": [
-                "https://ilisaqativut.github.io/fishriver-dict/transducers/inupiaq-approx.yaml"
+                "../transducers/inupiaq-approx.yaml"
             ]
         },
         {
