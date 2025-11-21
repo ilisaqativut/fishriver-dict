@@ -3,13 +3,13 @@
         "L1": "Iñupiaq",
         "L2": "English",
         "optional_field_title": "Optional Info",
-        "alphabet": "../alphabet.csv",
-        "audio_path": "https://ilisaqativut.github.io/mtd-starter/data/audio/"
+        "alphabet": "https://ilisaqativut.github.io/fishriver-dict/alphabet.csv",
+        "audio_path": "https://ilisaqativut.github.io/fishriver-dict/data/audio/"
     },
     "data": [
         {
-            "manifest": "./manifest.json",
-            "resource": "../data/data.csv"
+            "manifest": "https://ilisaqativut.github.io/fishriver-dict/manifest.json",
+            "resource": "https://ilisaqativut.github.io/fishriver-dict/data/data.csv"
         }
     ]
 }
