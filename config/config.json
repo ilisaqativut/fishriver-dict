@@ -9,7 +9,7 @@
     "data": [
         {
             "manifest": "./manifest.json",
-            "resource": "../data/data.csv"
+            "resource": "https://ilisaqativut.github.io/fishriver-dict/data/data.csv"
         }
     ]
 }
