@@ -16,7 +16,7 @@
             "source": "norm_form",
             "target": "compare_form",
             "functions": [
-                "../transducers/inupiaq-approx.yaml"
+                "https://ilisaqativut.github.io/fishriver-dict/transducers/inupiaq-approx.yaml"
             ]
         },
         {
@@ -33,5 +33,5 @@
         "definition": "2",
         "example_sentence": ["3", "5", "7", "9", "11", "13", "15"],
         "example_sentence_definition": ["4", "6", "8", "10", "12", "14", "16"]
-            }
-        }
+    }
+}
