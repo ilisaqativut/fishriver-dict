@@ -34,7 +34,7 @@ jobs:
           cd config
           mtd export config.json js .
           cp config-*.js ../config.js
-         cp dict_cached-*.js ../dict_cached.js
+          cp dict_cached-*.js ../dict_cached.js
 
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@releases/v3
