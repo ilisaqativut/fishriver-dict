@@ -1,5 +1,4 @@
-// config.js
-var config = {
+
   "config": {
     "L1": "Iñupiaq",
     "L2": "English",
@@ -13,4 +12,4 @@ var config = {
       "resource": "https://ilisaqativut.github.io/fishriver-dict/data/data.csv"
     }
   ]
-};
+
